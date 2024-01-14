@@ -9,8 +9,8 @@ const client = new Client({
 });
 
 const webhookURLs = {
-    '521434568176435266': 'https://discord.com/api/webhooks/1195854699547611332/uu_NkyKvjk7aqEmrOufEo-RtgTSA2qi6mrZqM3X1FtltidaVv6nMBHQZ01tE8CJyq_yP',
-    '1193469681110106176': 'https://discord.com/api/webhooks/1195853875320725575/bevmRYuDbJUGk8JqIaGAxAD_FY_XHZ8kuzeQRBItZvtNHfjJrmGRvXEfutFzKE97P-wX'
+    'channel id 1': 'https://discord.com/api/webhooks/1195854699547611332/uu_NkyKvjk7aqEmrOufEo-RtgTSA2qi6mrZqM3X1FtltidaVv6nMBHQZ01tE8CJyq_yP',
+    'channel id 2': 'https://discord.com/api/webhooks/1195853875320725575/bevmRYuDbJUGk8JqIaGAxAD_FY_XHZ8kuzeQRBItZvtNHfjJrmGRvXEfutFzKE97P-wX'
 };
 
 client.on('ready', () => {
@@ -49,4 +49,4 @@ client.on('messageCreate', async (message) => {
       }
     }
   });
-client.login('MTE5NTg0NjQ2Njc3ODk3NjM2Nw.G-X20L.3MLvDmHK8iJ2uLTUzNNiSj9k07GLF9kzSUpbNA');
+client.login('bot token goes here');
